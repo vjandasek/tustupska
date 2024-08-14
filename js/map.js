@@ -1,6 +1,6 @@
 const API_KEY = 'cNs5BMkRb28YSCsnccaOl5iB61lTQ1-WMv5nFIL3IhI';
 
-const map = L.map('map').setView([49.9034994, 18.0720839], 16);
+const map = L.map('map').setView([49.9036994, 18.0720839], 16);
 
 const tileLayers = {
   'Turistická': L.tileLayer(`https://api.mapy.cz/v1/maptiles/outdoor/256/{z}/{x}/{y}?apikey=${API_KEY}`, {
